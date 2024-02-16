@@ -334,6 +334,24 @@ export function AsideMenuList({ layoutProps }) {
               <span className="menu-text">Manage Sub-Admin</span>
             </NavLink>
           </li>
+          <li
+            className={`menu-item ${getMenuItemActive(
+              "/contactUsList",
+              false
+            )}`}
+            aria-haspopup="true"
+          >
+            <NavLink className="menu-link" to="/contactUsList">
+              <span className="svg-icon menu-icon">
+                <SVG
+                  src={toAbsoluteUrl(
+                    "/media/svg/icons/Communication/Mail-notification.svg"
+                  )}
+                />
+              </span>
+              <span className="menu-text">Contact Us</span>
+            </NavLink>
+          </li>
         </ul>
       ) : type === 4 ? (
         <ul className={`menu-nav ${layoutProps.ulClasses}`}>

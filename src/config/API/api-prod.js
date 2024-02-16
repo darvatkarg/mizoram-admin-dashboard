@@ -7,6 +7,7 @@ const protocol = "https";
 // const host = "192.168.29.22";
 // const port = "8088";
 const host = "api.elibrarysmartcityadmin.education";
+// const host = "localhost:3000";
 const port = "";
 const trailUrl = "";
 

@@ -64,6 +64,8 @@ const questionEdit = lazy(() => import("./pages/Question/QuestionEdit"));
 const subAdminList = lazy(() => import("./pages/subAdmin/subAdminList"));
 const subAdminEdit = lazy(() => import("./pages/subAdmin/subAdminEdit"));
 
+const contactUsList = lazy(() => import("./pages/ContactUs/ContactUsList"));
+
 const auditorList = lazy(() => import("./pages/Auditor/auditorList"));
 const auditorEdit = lazy(() => import("./pages/Auditor/auditorEdit"));
 
@@ -147,6 +149,8 @@ export default function BasePage() {
         <ContentRoute path="/theoryEdit" component={theoryEdit} />
         <ContentRoute path="/subAdminList" component={subAdminList} />
         <ContentRoute path="/subAdminEdit" component={subAdminEdit} />
+
+        <ContentRoute path="/contactUsList" component={contactUsList} />
 
         <ContentRoute path="/topicList" component={topicList} />
         <ContentRoute path="/topicEdit" component={topicEdit} />
